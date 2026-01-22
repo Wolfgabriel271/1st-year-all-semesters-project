@@ -1,2 +1,3 @@
 # 1st-year-all-semesters-project
 This is all my projects during 1st year In Computer Enginnering course
+Hello everyone My name is Jazen Gabriel M. Digamon im a 1st yr Computer Enginnering at University of Bohol My goal is to learn all about software and Hardware, Microcontrollers, and Microprocessors So here i every year/semester i upload of my projects in github 
