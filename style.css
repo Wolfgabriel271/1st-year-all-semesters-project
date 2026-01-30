@@ -1,0 +1,70 @@
+/* Changed from .body to body */
+body {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background-image: url('jazenme.jpg'); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    transition: 0.5s;
+    margin: 0;
+    padding-top: 50px;
+}
+
+.theme1 {
+    /* If you want a different look for Theme 1, consider changing the image or color */
+    background-color: #111; 
+    background-blend-mode: overlay; /* This makes the dark color mix with the image */
+    color: white;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.9); /* Increased opacity for readability */
+    display: inline-block;
+    padding: 20px;
+    border-radius: 15px;
+    color: #333;
+    max-width: 80%;
+}
+
+.theme1 .card {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Fixed social-icon class (was social icon with a space in HTML) */
+.social-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Added to make it look like an icon */
+    transition: transform 0.2s;
+    vertical-align: middle;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
